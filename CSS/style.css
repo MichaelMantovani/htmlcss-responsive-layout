@@ -54,6 +54,10 @@ ul{
   flex-wrap: wrap;
 }
 
+.col-70{
+  flex-basis: 70%;
+}
+
 .col-66{
   flex-basis: 66%;
 }
@@ -64,6 +68,10 @@ ul{
 
 .col-33{
   flex-basis: 33%;
+}
+
+.col-30{
+  flex-basis: 30%
 }
 
 
@@ -185,5 +193,20 @@ ul{
 
 .benefit .card{
   background-color: white;
+  height: 100%;
+}
+
+
+/* ABOUT US */
+
+.about-us{
+  height: 600px;
+}
+
+.about-us .row{
+  height: 100%;
+}
+
+.about-us .col-70, .col-30{
   height: 100%;
 }
