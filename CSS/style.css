@@ -173,7 +173,17 @@ ul{
 
 /* BENEFITS */
 
-/* .benefit{
+.benefit{
   height: 600px;
   background-color: var(--main-color);
-} */
+}
+
+.benefit .col-33{
+  flex-basis: calc(100% / 3 );
+}
+
+
+.benefit .card{
+  background-color: white;
+  height: 100%;
+}
