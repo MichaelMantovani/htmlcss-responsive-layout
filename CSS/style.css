@@ -57,10 +57,15 @@ ul{
   flex-basis: 66%;
 }
 
+.col-50{
+  flex-basis: 50%;
+}
 
 .col-33{
   flex-basis: 33%;
 }
+
+
 
 
 
@@ -104,3 +109,20 @@ ul{
 .jumbotron .card{
   background-color: var(--jumbo-card);
 }
+
+
+/* FEATURE */
+
+.feature{
+  height: 600px;
+  background-color: var(--main-color);
+}
+
+.feature .row{
+  height: 600px;
+}
+
+.feature .col-50{
+  height: 100%;
+}
+
