@@ -53,13 +53,13 @@ ul{
   flex-wrap: wrap;
 }
 
-.col-70{
-  flex-basis: 70%;
+.col-66{
+  flex-basis: 66%;
 }
 
 
-.col-30{
-  flex-basis: 30%;
+.col-33{
+  flex-basis: 33%;
 }
 
 
@@ -91,7 +91,7 @@ ul{
 
 }
 
-.jumbotron .col-70, .col-30{
+.jumbotron .col-66, .col-33{
   height: 200px;
   padding: 10px;
 }
