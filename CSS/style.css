@@ -151,7 +151,7 @@ ul{
   height: 100%;
   display: flex;
   flex-direction: column;
-  
+
 }
 
 
@@ -209,4 +209,18 @@ ul{
 
 .about-us .col-70, .col-30{
   height: 100%;
+}
+
+/* GET STARTED */
+
+.get-started{
+  height: 600px;
+  background-color: var(--main-color);
+}
+
+/* FOOTER */
+
+footer{
+  height: 400px;
+  background-color: var(--footer-color);
 }
