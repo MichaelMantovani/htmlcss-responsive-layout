@@ -60,28 +60,31 @@ a{
   color: white;
 }
 
-h2{
-  color: var(--header-color);
-}
 
-p{
-  padding-bottom: 35px;
-}
+
 
 
 /* UTILITY */
 
 .container{
   max-width: 1200px;
-  height: 100%;
   margin: 0 auto;
 }
+
+.container-small{
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
 
 .orizontal-list{
   display: flex;
   justify-content: space-between;
 }
 
+.flex{
+  display: flex;
+}
 
 .btn-light{
   display: inline-block;
@@ -99,12 +102,30 @@ p{
   padding: 10px 60px;
 }
 
+.btn-arrow{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--main-color);
+  padding: 18px;
+  margin: 35px 0;
+}
+
 .pd-top-35{
   padding-top: 35px;
 }
 
+.pd-70{
+  padding: 70px;
+}
+
 .hline-30{
   line-height: 30px;
+}
+
+.italic{
+  font-style: italic;
 }
 
 .row{
@@ -163,6 +184,10 @@ p{
 
 }
 
+.jumbotron h2{
+  color: var(--header-color)
+}
+
 .jumbotron .card{
   border-radius: 25px;
   background-color: var(--jumbo-card);
@@ -204,17 +229,55 @@ p{
 /* FEATURE */
 
 .feature{
-  height: 600px;
   background-color: var(--main-color);
 }
 
-.feature .row{
-  height: 600px;
+.feature .col-50{
+  margin-top: 120px;
+  margin-bottom: 50px;
+  padding: 30px;
+  align-self: flex-end;
+  font-size: 22px;
 }
 
-.feature .col-50{
-  height: 100%;
+.feature .content{
+  color: white;
 }
+
+
+.feature .big-pic{
+  max-width: 100%;
+  padding-bottom: 100px;
+}
+
+.feature .small-pic{
+  max-width: 70%;
+}
+
+
+.feature .white-card{
+  background-color: white;
+  border-radius: 50px;
+  padding: 0 20px;
+
+}
+
+
+.white-card .content{
+  color: black;
+  text-align: center;
+}
+
+.fa-arrow-down{
+  color: black;
+}
+
+#strategic-planning{
+  font-size: 40px;
+}
+
+
+
 
 
 /* TESTIMONIALS */
