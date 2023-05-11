@@ -19,7 +19,8 @@
   --header-color: rgb(0,132,253);
   --main-color: rgb(151,146,228);
   --free-sign: rgb(253,193,95);
-  --footer-color: rgb(51,51,51)
+  --footer-color: rgb(51,51,51);
+  --jumbo-card: rgb(181,221,255)
 }
 
 
@@ -47,6 +48,21 @@ ul{
 
 }
 
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-70{
+  flex-basis: 70%;
+}
+
+
+.col-30{
+  flex-basis: 30%;
+}
+
+
 
 /* HEADER */
 
@@ -66,3 +82,25 @@ ul{
   flex-basis: 50%;
 }
 
+
+
+/* JUMBOTRON */
+
+.jumbotron{
+  height: 600px;
+
+}
+
+.jumbotron .col-70, .col-30{
+  height: 200px;
+  padding: 10px;
+}
+
+.card{
+  height: 100%;
+  border-radius: 25px;
+}
+
+.jumbotron .card{
+  background-color: var(--jumbo-card);
+}
